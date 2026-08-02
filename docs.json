@@ -3,8 +3,8 @@
   "name": "Afframe Docs",
   "colors": {
     "primary": "#1f1f1f",
-    "light": "#ffffff",
-    "dark": "#1f1f1f"
+    "light": "#28dcb1",
+    "dark": "#009473"
   },
   "logo": {
     "light": "/images/horizontal.svg",
@@ -47,7 +47,7 @@
   "background": {
     "color": {
       "light": "#ffffff",
-      "dark": "#1f1f1f"
+      "dark": "#0a1f1a"
     }
   },
   "icons": {
