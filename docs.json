@@ -24,8 +24,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Go to app",
-      "href": "https://app.afframe.com"
+      "label": "Open Afframe",
+      "href": "https://app.afframe.com/auth/login?ref=docs"
     }
   },
   "footer": {
