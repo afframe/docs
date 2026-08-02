@@ -55,7 +55,7 @@
     "display": "header"
   },
   "background": {
-    "decoration": "gradient",
+    "decoration": "grid",
     "color": {
       "light": "#ffffff",
       "dark": "#1f1f1f"
