@@ -42,7 +42,7 @@
       "download-pdf",
       "download-spec"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "background": {
     "color": {
