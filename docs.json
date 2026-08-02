@@ -90,12 +90,41 @@
         }
       ]
     },
-    "groups": [
+    "tabs": [
       {
-        "group": "Getting Started",
+        "tab": "Help Center",
         "pages": [
-          "index",
-          "quickstart"
+          "help-center/quickstart"
+        ]
+      },
+      {
+        "tab": "Developer Docs",
+        "pages": [
+          "developer-docs/quickstart"
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "pages": [
+          "api-reference/quickstart"
+        ]
+      },
+      {
+        "tab": "SDKs",
+        "pages": [
+          "sdks/quickstart"
+        ]
+      },
+      {
+        "tab": "Knowledge Base",
+        "pages": [
+          "knowledge-base/quickstart"
+        ]
+      },
+      {
+        "tab": "Enterprise",
+        "pages": [
+          "enterprise/quickstart"
         ]
       }
     ]
