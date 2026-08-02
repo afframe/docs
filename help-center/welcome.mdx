@@ -5,44 +5,153 @@ mode: "custom"
 sidebarTitle: "Welcome"
 ---
 
-<div className="relative overflow-hidden bg-slate-900 dark:bg-slate-950">
-  <div className="absolute inset-0 opacity-20" style={{backgroundImage: "repeating-linear-gradient(135deg, transparent, transparent 40px, rgba(255,255,255,0.05) 40px, rgba(255,255,255,0.05) 80px)"}} />
+<div className="relative overflow-hidden">
+  <img src="/images/hero-bg.webp" alt="" className="absolute inset-0 h-full w-full object-cover" />
 
-  <div className="relative mx-auto max-w-5xl px-6 py-24 text-center">
-    <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">
-      Welcome to Afframe Docs!
+  <div className="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/40 to-slate-950/90" />
+
+  <div className="relative mx-auto max-w-5xl px-6 py-36 text-center">
+    <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-white backdrop-blur">
+      <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+
+      Afframe Documentation
+    </span>
+
+    <h1 className="mt-6 text-5xl font-bold tracking-tight text-white drop-shadow-lg sm:text-7xl">
+      Welcome to Afframe Docs
     </h1>
 
-    <p className="mt-6 text-lg text-slate-300">
-      Learn how to get started with Afframe
+    <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-100/90 drop-shadow sm:text-xl">
+      Guides, references, and examples to help you build with Afframe, from your first request to production.
     </p>
 
-    <div className="mt-10 flex justify-center">
-      <a href="/help-center/quickstart" className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow hover:bg-slate-100">
-        Explore the docs →
+    <div className="mt-10 flex flex-wrap justify-center gap-3">
+      <a href="/help-center/quickstart" className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg shadow-black/20 transition hover:bg-slate-100">
+        Get started →
       </a>
+
+      <a href="/help-center/landing-hub" className="inline-flex items-center gap-2 rounded-lg border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20">
+        Browse guides
+      </a>
+    </div>
+
+    <div className="mt-16 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 text-white sm:grid-cols-4">
+      <div>
+        <div className="text-3xl font-bold">120+</div>
+        <div className="text-xs uppercase tracking-wider text-slate-300">Guides</div>
+      </div>
+
+      <div>
+        <div className="text-3xl font-bold">6</div>
+        <div className="text-xs uppercase tracking-wider text-slate-300">Products</div>
+      </div>
+
+      <div>
+        <div className="text-3xl font-bold">2</div>
+        <div className="text-xs uppercase tracking-wider text-slate-300">Languages</div>
+      </div>
+
+      <div>
+        <div className="text-3xl font-bold">24/7</div>
+        <div className="text-xs uppercase tracking-wider text-slate-300">Support</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div className="mx-auto max-w-6xl px-6 py-16">
-  <h2 className="text-center text-2xl font-semibold">Get started with tools and guides</h2>
+<div className="mx-auto max-w-6xl px-6 py-20">
+  <div className="mx-auto max-w-2xl text-center">
+    <p className="text-sm font-semibold uppercase tracking-widest text-primary">Explore</p>
+    <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Get started with tools and guides</h2>
 
-  <Columns cols={4}>
-    <Card title="Quick Start" icon="rocket" href="/help-center/quickstart">
-      Get up and running with Afframe in minutes.
-    </Card>
+    <p className="mt-4 text-slate-600 dark:text-slate-400">
+      Everything you need to ship faster with Afframe. Pick a path below.
+    </p>
+  </div>
 
-    <Card title="Landing Hub" icon="grid" href="/help-center/landing-hub">
-      Card grid landing page pattern for organizing content.
-    </Card>
+  <div className="mt-12">
+    <Columns cols={4}>
+      <Card title="Quick Start" icon="rocket" href="/help-center/quickstart">
+        Get up and running with Afframe in minutes.
+      </Card>
 
-    <Card title="Knowledge Base" icon="book-open" href="/help-center/kb-article">
-      Accordions, steps, and tabs for in-depth articles.
-    </Card>
+      <Card title="Landing Hub" icon="grid" href="/help-center/landing-hub">
+        Card grid landing page pattern for organizing content.
+      </Card>
 
-    <Card title="API Reference" icon="code" href="/api-reference/quickstart">
-      Manual API documentation with parameters and examples.
-    </Card>
-  </Columns>
+      <Card title="Knowledge Base" icon="book-open" href="/help-center/kb-article">
+        Accordions, steps, and tabs for in-depth articles.
+      </Card>
+
+      <Card title="API Reference" icon="code" href="/api-reference/quickstart">
+        Manual API documentation with parameters and examples.
+      </Card>
+    </Columns>
+  </div>
+</div>
+
+<div className="border-y border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900/50">
+  <div className="mx-auto max-w-6xl px-6 py-20">
+    <div className="mx-auto max-w-2xl text-center">
+      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Popular topics</h2>
+
+      <p className="mt-4 text-slate-600 dark:text-slate-400">
+        Answers to the questions our community asks most often.
+      </p>
+    </div>
+
+    <div className="mt-12">
+      <Columns cols={3}>
+        <Card title="Authentication" icon="key" href="/help-center/quickstart">
+          Set up API keys, OAuth, and manage access.
+        </Card>
+
+        <Card title="Webhooks" icon="webhook" href="/help-center/kb-article">
+          Receive real-time events from Afframe.
+        </Card>
+
+        <Card title="SDKs" icon="cube" href="/sdks/quickstart">
+          Official client libraries for your favorite language.
+        </Card>
+
+        <Card title="Changelog" icon="clock" href="/help-center/changelog">
+          What shipped this week, month, and quarter.
+        </Card>
+
+        <Card title="Callouts & components" icon="palette" href="/help-center/callouts-demo">
+          Building blocks for rich documentation pages.
+        </Card>
+
+        <Card title="Enterprise" icon="building" href="/enterprise/quickstart">
+          SSO, audit logs, and dedicated support.
+        </Card>
+      </Columns>
+    </div>
+  </div>
+</div>
+
+<div className="mx-auto max-w-6xl px-6 py-20">
+  <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-8 py-14 text-center shadow-xl sm:px-16">
+    <div className="absolute inset-0 opacity-30" style={{backgroundImage: "radial-gradient(circle at 20% 20%, rgba(56,189,248,0.35), transparent 40%), radial-gradient(circle at 80% 60%, rgba(168,85,247,0.35), transparent 40%)"}} />
+
+    <div className="relative">
+      <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        Ready to build with Afframe?
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-xl text-slate-300">
+        Jump into the quick start guide and make your first request in under five minutes.
+      </p>
+
+      <div className="mt-8 flex flex-wrap justify-center gap-3">
+        <a href="/help-center/quickstart" className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow hover:bg-slate-100">
+          Start building →
+        </a>
+
+        <a href="/api-reference/quickstart" className="inline-flex items-center gap-2 rounded-lg border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur hover:bg-white/20">
+          Read the API reference
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
