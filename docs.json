@@ -7,8 +7,8 @@
     "dark": "#1f1f1f"
   },
   "logo": {
-    "light": "/images/logomark.svg",
-    "dark": "/images/logomark.svg",
+    "light": "/images/horizontal.svg",
+    "dark": "/images/horizontal.svg",
     "href": "https://afframe.com"
   },
   "favicon": {
@@ -18,7 +18,7 @@
   "navbar": {
     "links": [
       {
-        "href": "mailto:hi@mintlify.com",
+        "href": "mailto:support@afframe.com",
         "label": "Support"
       },
       {
@@ -29,7 +29,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "href": "https://app.afframe.com"
     }
   },
   "footer": {
@@ -76,55 +76,88 @@
     "eyebrows": "breadcrumbs"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Help Center",
-        "pages": [
-          "help-center/quickstart"
+        "language": "en",
+        "default": true,
+        "tabs": [
+          {
+            "tab": "Help Center",
+            "pages": [
+              "help-center/quickstart"
+            ]
+          },
+          {
+            "tab": "Developer Docs",
+            "pages": [
+              "developer-docs/quickstart"
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "pages": [
+              "api-reference/quickstart"
+            ]
+          },
+          {
+            "tab": "SDKs",
+            "pages": [
+              "sdks/quickstart"
+            ]
+          },
+          {
+            "tab": "Knowledge Base",
+            "pages": [
+              "knowledge-base/quickstart"
+            ]
+          },
+          {
+            "tab": "Enterprise",
+            "pages": [
+              "enterprise/quickstart"
+            ]
+          }
         ]
       },
       {
-        "tab": "Developer Docs",
-        "pages": [
-          "developer-docs/quickstart"
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "pages": [
-          "api-reference/quickstart"
-        ]
-      },
-      {
-        "tab": "SDKs",
-        "pages": [
-          "sdks/quickstart"
-        ]
-      },
-      {
-        "tab": "Knowledge Base",
-        "pages": [
-          "knowledge-base/quickstart"
-        ]
-      },
-      {
-        "tab": "Enterprise",
-        "pages": [
-          "enterprise/quickstart"
+        "language": "cs",
+        "tabs": [
+          {
+            "tab": "Centrum nápovědy",
+            "pages": [
+              "cs/help-center/quickstart"
+            ]
+          },
+          {
+            "tab": "Dokumentace pro vývojáře",
+            "pages": [
+              "cs/developer-docs/quickstart"
+            ]
+          },
+          {
+            "tab": "API reference",
+            "pages": [
+              "cs/api-reference/quickstart"
+            ]
+          },
+          {
+            "tab": "SDK",
+            "pages": [
+              "cs/sdks/quickstart"
+            ]
+          },
+          {
+            "tab": "Znalostní báze",
+            "pages": [
+              "cs/knowledge-base/quickstart"
+            ]
+          },
+          {
+            "tab": "Enterprise",
+            "pages": [
+              "cs/enterprise/quickstart"
+            ]
+          }
         ]
       }
     ]
