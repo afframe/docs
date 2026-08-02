@@ -39,16 +39,10 @@
     "options": [
       "copy",
       "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode",
       "download-pdf",
       "download-spec"
     ],
-    "display": "header"
+    "display": "toc"
   },
   "background": {
     "color": {
