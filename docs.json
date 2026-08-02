@@ -73,7 +73,13 @@
           {
             "tab": "Help Center",
             "pages": [
-              "help-center/quickstart"
+              "help-center/quickstart",
+              "help-center/landing-hub",
+              "help-center/kb-article",
+              "help-center/api-example",
+              "help-center/feature-showcase",
+              "help-center/changelog",
+              "help-center/callouts-demo"
             ]
           },
           {

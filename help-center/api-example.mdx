@@ -1,0 +1,67 @@
+---
+title: "API Reference Example"
+description: "Manual API doc pattern with ParamField and Response examples"
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## Create a widget
+
+`POST /v1/widgets`
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Request body
+
+<ParamField body="name" type="string" required>
+  Lorem ipsum dolor sit amet.
+</ParamField>
+
+<ParamField body="color" default="blue" type="string">
+  Consectetur adipiscing elit.
+</ParamField>
+
+<ParamField body="metadata" type="object">
+  Sed do eiusmod tempor.
+
+  <Expandable title="properties">
+    <ParamField body="tag" type="string">
+      Ut labore et dolore magna aliqua.
+    </ParamField>
+
+    <ParamField body="priority" type="integer">
+      Ut enim ad minim veniam.
+    </ParamField>
+  </Expandable>
+</ParamField>
+
+### Response
+
+<ResponseField name="id" type="string">
+  Duis aute irure dolor in reprehenderit.
+</ResponseField>
+
+<ResponseField name="created_at" type="string">
+  In voluptate velit esse cillum dolore.
+</ResponseField>
+
+<RequestExample>
+
+```bash cURL
+curl -X POST https://api.afframe.com/v1/widgets \
+  -H "Authorization: Bearer $TOKEN" \
+  -d '{"name":"Lorem","color":"blue"}'
+```
+
+</RequestExample>
+
+<ResponseExample>
+
+```json 200
+{
+  "id": "wgt_lorem",
+  "created_at": "2026-08-02T12:00:00Z"
+}
+```
+
+</ResponseExample>
