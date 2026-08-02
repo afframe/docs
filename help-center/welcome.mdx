@@ -1,0 +1,48 @@
+---
+title: "Welcome"
+description: "Welcome to Afframe Docs"
+mode: "custom"
+sidebarTitle: "Welcome"
+---
+
+<div className="relative overflow-hidden bg-slate-900 dark:bg-slate-950">
+  <div className="absolute inset-0 opacity-20" style={{backgroundImage: "repeating-linear-gradient(135deg, transparent, transparent 40px, rgba(255,255,255,0.05) 40px, rgba(255,255,255,0.05) 80px)"}} />
+
+  <div className="relative mx-auto max-w-5xl px-6 py-24 text-center">
+    <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">
+      Welcome to Afframe Docs!
+    </h1>
+
+    <p className="mt-6 text-lg text-slate-300">
+      Learn how to get started with Afframe
+    </p>
+
+    <div className="mt-10 flex justify-center">
+      <a href="/help-center/quickstart" className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow hover:bg-slate-100">
+        Explore the docs →
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="mx-auto max-w-6xl px-6 py-16">
+  <h2 className="text-center text-2xl font-semibold">Get started with tools and guides</h2>
+
+  <Columns cols={4}>
+    <Card title="Quick Start" icon="rocket" href="/help-center/quickstart">
+      Get up and running with Afframe in minutes.
+    </Card>
+
+    <Card title="Landing Hub" icon="grid" href="/help-center/landing-hub">
+      Card grid landing page pattern for organizing content.
+    </Card>
+
+    <Card title="Knowledge Base" icon="book-open" href="/help-center/kb-article">
+      Accordions, steps, and tabs for in-depth articles.
+    </Card>
+
+    <Card title="API Reference" icon="code" href="/api-reference/quickstart">
+      Manual API documentation with parameters and examples.
+    </Card>
+  </Columns>
+</div>

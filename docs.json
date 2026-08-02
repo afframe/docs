@@ -73,6 +73,7 @@
           {
             "tab": "Help Center",
             "pages": [
+              "help-center/welcome",
               "help-center/quickstart",
               "help-center/landing-hub",
               "help-center/kb-article",
