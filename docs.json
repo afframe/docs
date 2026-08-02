@@ -18,24 +18,21 @@
   "navbar": {
     "links": [
       {
-        "href": "mailto:support@afframe.com",
-        "label": "Support"
-      },
-      {
-        "href": "https://app.afframe.com",
-        "label": "App"
+        "href": "mailto:support+docs@afframe.com",
+        "label": "Contact us"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Go to app",
       "href": "https://app.afframe.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/afframe",
-      "linkedin": "https://linkedin.com/company/afframe"
+      "linkedin": "https://linkedin.com/in/afframe",
+      "website": "https://afframe.com/",
+      "github": "https://github.com/afframe"
     }
   },
   "contextual": {
@@ -54,7 +51,6 @@
     "display": "header"
   },
   "background": {
-    "decoration": "grid",
     "color": {
       "light": "#ffffff",
       "dark": "#1f1f1f"
@@ -87,6 +83,12 @@
             ]
           },
           {
+            "tab": "Knowledge Base",
+            "pages": [
+              "knowledge-base/quickstart"
+            ]
+          },
+          {
             "tab": "Developer Docs",
             "pages": [
               "developer-docs/quickstart"
@@ -105,12 +107,6 @@
             ]
           },
           {
-            "tab": "Knowledge Base",
-            "pages": [
-              "knowledge-base/quickstart"
-            ]
-          },
-          {
             "tab": "Enterprise",
             "pages": [
               "enterprise/quickstart"
@@ -125,6 +121,12 @@
             "tab": "Centrum nápovědy",
             "pages": [
               "cs/help-center/quickstart"
+            ]
+          },
+          {
+            "tab": "Znalostní báze",
+            "pages": [
+              "cs/knowledge-base/quickstart"
             ]
           },
           {
@@ -146,12 +148,6 @@
             ]
           },
           {
-            "tab": "Znalostní báze",
-            "pages": [
-              "cs/knowledge-base/quickstart"
-            ]
-          },
-          {
             "tab": "Enterprise",
             "pages": [
               "cs/enterprise/quickstart"
@@ -160,5 +156,8 @@
         ]
       }
     ]
+  },
+  "appearance": {
+    "default": "light"
   }
 }
