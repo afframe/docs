@@ -2,7 +2,7 @@
   "theme": "aspen",
   "name": "Afframe Docs",
   "colors": {
-    "primary": "#1f1f1f",
+    "primary": "#009473",
     "light": "#28dcb1",
     "dark": "#009473"
   },
@@ -47,7 +47,7 @@
   "background": {
     "color": {
       "light": "#ffffff",
-      "dark": "#0a1f1a"
+      "dark": "#1f1f1f"
     }
   },
   "icons": {
